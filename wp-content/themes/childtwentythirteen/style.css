@@ -1,0 +1,27 @@
+/*
+Theme Name: Child of Twenty Thirteen
+Description: Child theme for devtools2 Class
+Author: Analytical Engine Interactive Inc.
+Version: 1.0
+Template: twentythirteen
+*/
+
+@import url('../twentythirteen/style.css');
+@import url('https://fonts.googleapis.com/css?family=Oswald'); 
+
+
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+h2 {
+	font-size: 40px;
+}
+nav#site-navigation.navigation.main-navigation {
+	background: black;
+	color: white;
+}
+
+div#secondary.sidebar-container {
+	background: #ca3c08;
+	color: #686758;
+}
