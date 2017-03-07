@@ -7,21 +7,34 @@ Template: twentythirteen
 */
 
 @import url('../twentythirteen/style.css');
-@import url('https://fonts.googleapis.com/css?family=Oswald'); 
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One'); 
 
 
-/*font-family: 'Oswald', sans-serif;
-font-family: 'Oswald', sans-serif;
-
-h2 {
-	font-size: 40px;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik Mono One', sans-serif;
 }
+
 nav#site-navigation.navigation.main-navigation {
-	background: black;
+	background: #38c338;
 	color: white;
 }
 
-div#secondary.sidebar-container {
-	background: #ca3c08;
-	color: #686758;
+h1.site-title {
+	background: #892DC7;
+	opacity: 1.0;
 }
+
+h1 {
+	color: #ffc338;
+}
+
+div#content.site-content {
+	background: #3d91e8;
+	opacity: 0.5;
+}
+
+#div.widget-area.masonry  {
+	background: #ac5b6a;
+	opacity: 2.5;
+}
+

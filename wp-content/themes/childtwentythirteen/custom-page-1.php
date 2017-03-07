@@ -1,3 +1,5 @@
+<?php /* Template Name: custom-page-portfolio */ ?>
+
 <?php
 /**
  * The template for displaying all pages
