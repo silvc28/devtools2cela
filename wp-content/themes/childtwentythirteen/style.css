@@ -1,50 +1,62 @@
 /*
 Theme Name: Child of Twenty Thirteen
 Description: Child theme for devtools2 Class
-Author: Analytical Engine Interactive Inc.
+Author: Silvia
 Version: 1.0
 Template: twentythirteen
 */
 
 @import url('../twentythirteen/style.css');
-@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One'); 
-
-header {
-	background: url("drseuss.jpg"); 
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+.site-header {
+    background: url("drseuss.jpg");
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
 }
 #header.entry-header {
-	background: #ff0000;
-	color: white;
+    background: #ff0000;
+    color: white;
 }
-
+ul#primary-menu.nav-menu {
+    background: #ff0000;
+    color: white;
+}
 
 nav#site-navigation.navigation.main-navigation {
-	background: #38c338;
-	color: white;
+    background: #38c338;
+    color: black;
+    margin: 10 auto;
+    width: 50%;
 }
-
-h1.site-title, h1.entry-title, div.entry-meta {
-	background: #892DC7;
-	opacity: 0.5;
+h1.site-title {
+    background: #ff6262;
+    opacity: 0.5;
 }
-
+h1.entry-title,
+div.entry-meta {
+    background: #6b0000;
+    opacity: 0.5;
+}
+.entry-title a {
+    color: #ffffff;
+}
 h1 {
-	color: #ffc338;
+    color: #ffc338;
 }
-
 div#content.site-content {
-	background: #3d91e8;
-	opacity: 0.5;
+    background: #dcb9b9;
+    opacity: 0.5;
 }
-
 div#secondary.sidebar-container {
-	background: #ac5b6a;
-	opacity: 2.5;
+    background: #ac5b6a;
+    opacity: 2.5;
 }
-
